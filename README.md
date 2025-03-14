@@ -25,7 +25,8 @@ $ sudo docker-compose up -d
 К сожалению не удалось поднять дамп в докере.
 Поднимите dump в ручную, командой
 
-psql -U laravel -d laravel_db -h localhost < dump.sql
+psql -U postgres -d warehouse -h localhost < dump.sql
 
+пароль password
 Все пароли в файле .env.
 Запустите эту команду в корне проекта
