@@ -1,0 +1,4 @@
+uvicorn[standard]
+fastapi
+psycopg2
+SQLAlchemy~=2.0.39
